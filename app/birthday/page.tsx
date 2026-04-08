@@ -1,14 +1,16 @@
-"use client";
+// "use client";
 
-import { useSearchParams } from "next/navigation";
-import BirthdayWish from "../components/BirthdayWish";
+// export const dynamic = "force-dynamic";
 
-export default function BirthdayPage() {
-  const searchParams = useSearchParams();
-  const name = searchParams.get("name") || "Bhai";
-  const message =
-    searchParams.get("message") ||
-    "Wishing you happiness and success always ❤️";
+// import { useSearchParams } from "next/navigation";
+// import BirthdayWish from "../components/BirthdayWish";
+// export default function BirthdayPage() {
+//   const searchParams = useSearchParams();
 
-  return <BirthdayWish name={name} message={message} />;
-}
+//   const name = searchParams.get("name") || "Bhai";
+//   const message =
+//     searchParams.get("message") ||
+//     "Wishing you happiness and success ❤️";
+
+//   return <BirthdayWish name={name} message={message} />;
+// // }
